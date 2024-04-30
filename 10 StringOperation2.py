@@ -25,18 +25,18 @@
 # for i in str:
 #     print(str)
 
-str=("Rajkumar")
-for i in str:
-    print(i)
-
-print(str, end="\n")
-print(str, end="")
-print(str, end="foo")
-
+# str=("Rajkumar")
+# for i in str:
+#     print(i)
+#
+# print(str, end="\n")
+# print(str, end="")
+# print(str, end="foo")
+#
 
 # #Testing Strings *** consider in whitespace in testing
 #
-# s=("welcome")
+s=("welcome")
 # print(s.isalnum()) #true
 # print(s.isalpha()) #True
 # print(s.isdigit()) #False
@@ -57,7 +57,7 @@ print(str, end="foo")
 # print(s.startswith("thon")) #false
 # print(s.count("o")) #3
 # print(s.count("y")) #1
-# print(s.count("of")) #1
+# print(s.count("h")) #1
 # print(s.find("h")) #14
 # print(s.find("o")) #4 just use find return value is startin o place value
 # print(s.rfind("o")) # 15 use rfind return last o place value

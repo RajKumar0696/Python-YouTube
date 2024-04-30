@@ -1,5 +1,5 @@
-# Wirte Data into a File
-"""file=open('/home/raj/Desktop/Rajkumar.txt', 'w') #Enter the full and currect path (use pwd in terminal)
+# Write Data into a File
+"""file=open('/home/raj/Desktop/Rajkumar.txt', 'w') #Enter the full and correct path (use pwd in terminal)
 
 file.write("HI I AM RAJKUMAR\n")
 file.write("I AM FROM THIRUVALLUR\n")
@@ -10,7 +10,7 @@ file.close()
 #Read Data into a File
 
 file=open('/home/raj/Desktop/Rajkumar.txt', 'r')
-#print(file.read()) # Read total contand
+#print(file.read()) # Read total contend
 #print(file.read(100)) # read enter number of characters
 #print(file.readline()) # Default print first line
 print(file.readlines())

@@ -3,12 +3,13 @@ from abc import ABC,abstractmethod
 class A(ABC):
     @abstractmethod
     def display(self):
-        print("Its passable") #TypeError: Can't instantiate abstract class A with abstract method display
+        print("Its passable") # TypeError: Can't instantiate abstract class A with abstract method display
 
 class B():
     def display(self):
         print("This is abstract method")
 mc=B()
+
 mc.display()
 
 

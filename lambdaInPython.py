@@ -10,3 +10,6 @@ print(x(10,5,6)) # 40
 x=lambda a,b,c,d,e,f:(a+b*c-d+e*f)
 print(x(10,20,30,40,50,60)) #3570
 
+
+
+

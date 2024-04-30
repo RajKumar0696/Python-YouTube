@@ -27,7 +27,7 @@
 
 #
 #
-# ## MultiLevel Inheritance (one parent and more then one child)
+# ## MultiLevel Inheritance (one parent and more than one child)
 # class A():
 #     a,b=30,40
 #     def m1(self):
